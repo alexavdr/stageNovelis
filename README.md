@@ -1,7 +1,7 @@
 # Stage Novelis
 ### 05/02/2024 - 09/02/2024
 
-In this repository you will find the exercises and activities I did during my internship in Novelis from the f5th to the 9th of February 2024
+In this repository you will find the exercises and activities I did during my internship in Novelis from February 5th to February 9th, 2024
 
 ![coding image](coding.jpg)
 
