@@ -1,21 +1,24 @@
 """
 Exercise 6. Write a program to find how many times substring “Emma” appears in the given string.
 """
-from typing import List
 
 
-def emma_count(list_x: List):
+def emma_count(string: str):
     """
     iterates through each string in the list. If the string is equal to "Emma", variable "count" increases by 1.
-    :param list_x: list
+    :param string: str
     :return: int
     """
     count = 0
-    for word in list_x:
-        count += 1 if word == "Emma" else 0
-    return count
+    try:
+        string = string.split()
+        for word in string:
+            count += 1 if word.lower() == "emma" else 0
+        return count
+    except:
+        return "has to be a string!"
 
 
 if __name__ == "__main__":
-    str_x = input("String: ").split()
+    str_x = input("String: ")
     print("Emma appeared {} times".format(emma_count(str_x)))

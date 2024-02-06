@@ -16,9 +16,16 @@ def remove_char(word: str, n: int):
     :param n: int
     :return:
     """
-    return word[n:]
+    try:
+        if 0 <= n < len(word):
+            return word[n:]
+        return ("The second parameter has to be a number greater than or equal to 0 and "
+                "smaller than the length of the string")
+    except TypeError:
+        return "Input submitted was not the right type"
+    except:
+        return "Something went wrong"
 
 
 if __name__ == "__main__":
-    string, i = input("String: "), int(input("Number: "))
-    print(remove_char(string, i))
+    print(remove_char("python", -1))
