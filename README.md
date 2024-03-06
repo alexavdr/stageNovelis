@@ -26,10 +26,10 @@ In this repository you will find the exercises and activities I did during my in
 - **Jupyter Notebooks:** Using the Hugging Face pipeline function for sentiment analysis
 - **Transformers:** learning about transformers and how they work
 
-###DAY 4:
+### DAY 4:
 - **Jupyter Notebooks:** Exploring other aspects of the pipeline function
 - **Scientific paper:** Beginning to write a scientific paper comparing the models BERT and GPT-3.5
 
-###DAY 5: 
+### DAY 5: 
 - **Scientific paper:** generating the dataset for the experiment and finalizing the paper
 - **ChatGPT Prompt Engineering Course:** taking a course about prompt engineering on the platform Deep Learnin AI
